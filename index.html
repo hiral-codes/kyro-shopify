@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KYRO - Luxury women's beauty, skincare & body care. Premium D2C beauty brand with carefully curated skincare essentials.">
+    <title>KYRO - Luxury Beauty & Skincare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="nav-center">
+                <h1 class="logo">KYRO</h1>
+            </div>
+            <div class="nav-right">
+                <div class="search-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M19 19L14.65 14.65" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="account-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 10C11.933 10 13.5 8.433 13.5 6.5C13.5 4.567 11.933 3 10 3C8.067 3 6.5 4.567 6.5 6.5C6.5 8.433 8.067 10 10 10Z" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M3 17C3 14.8 5.4 13 10 13C14.6 13 17 14.8 17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="cart-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M1 1H4.27924M4.27924 1L6.39856 14.23C6.55803 15.44 7.67452 16.3 8.95073 16.3H17.5263M17.5263 16.3C18.3139 16.3 18.9649 16.95 18.9649 17.7375C18.9649 18.525 18.3139 19.175 17.5263 19.175M4.27924 1L4.20108 0.583822C4.04piccolò -0.275265 3.35245 -0.7 2.66382 -0.616584C1.97518 -0.533168 1.48726 0.219099 1.64673 1.07821" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#shop">Shop All</a></li>
+                <li><a href="#skincare">Skincare</a></li>
+                <li><a href="#body">Body Care</a></li>
+                <li><a href="#sets">Sets & Bundles</a></li>
+                <li><a href="#about">About KYRO</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Elevate Your Ritual</h2>
+            <p class="hero-subtitle">Luxury skincare and body care for the modern woman</p>
+            <button class="btn btn-primary">Explore Collection</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800&h=600&fit=crop" alt="Luxury skincare products" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+        <div class="badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L3 7V12C3 18.88 12 22 12 22C12 22 21 18.88 21 12V7L12 2Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                <path d="M10 13L9 12M10 13L15 8M10 13L14 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <p>100% Authentic</p>
+        </div>
+        <div class="badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 1V23M1 12H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <p>Free Shipping Over $50</p>
+        </div>
+        <div class="badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.48 2 2 6.48 2 12S6.48 22 12 22S22 17.52 22 12S17.52 2 12 2Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                <path d="M16 10L10 16M10 10L16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <p>30-Day Returns</p>
+        </div>
+        <div class="badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p>Cruelty-Free</p>
+        </div>
+    </section>
+
+    <!-- Shop by Category -->
+    <section class="categories" id="categories">
+        <h2 class="section-title">Shop By Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop" alt="Skincare collection">
+                </div>
+                <h3>Skincare</h3>
+                <p>Serums, oils & essentials</p>
+                <a href="#skincare" class="category-link">Shop Now →</a>
+            </div>
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop" alt="Body care collection">
+                </div>
+                <h3>Body Care</h3>
+                <p>Luxurious body treats</p>
+                <a href="#body" class="category-link">Shop Now →</a>
+            </div>
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop" alt="Beauty collection">
+                </div>
+                <h3>Beauty</h3>
+                <p>Face & lip essentials</p>
+                <a href="#beauty" class="category-link">Shop Now →</a>
+            </div>
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop" alt="Sets & bundles">
+                </div>
+                <h3>Sets & Bundles</h3>
+                <p>Curated gift sets</p>
+                <a href="#sets" class="category-link">Shop Now →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section class="best-sellers" id="best-sellers">
+        <h2 class="section-title">Best Sellers</h2>
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=400&fit=crop" alt="Luminous Glow Serum">
+                    <span class="badge-sale">Best Seller</span>
+                    <button class="btn-wishlist">♡</button>
+                </div>
+                <div class="product-info">
+                    <h3>Luminous Glow Serum</h3>
+                    <p class="product-category">Serums & Oils</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(248)</span>
+                    </div>
+                    <p class="product-description">Illuminate your complexion with our bestselling serum infused with vitamin C and rose hip oil.</p>
+                    <div class="product-price">
+                        <span class="price">$68</span>
+                        <span class="size">30ml</span>
+                    </div>
+                    <button class="btn btn-add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=400&fit=crop" alt="Silky Hydration Mask">
+                    <span class="badge-new">New</span>
+                    <button class="btn-wishlist">♡</button>
+                </div>
+                <div class="product-info">
+                    <h3>Silky Hydration Mask</h3>
+                    <p class="product-category">Masks & Treatments</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(189)</span>
+                    </div>
+                    <p class="product-description">A luxurious sheet mask with hyaluronic acid and botanical extracts for instant hydration.</p>
+                    <div class="product-price">
+                        <span class="price">$45</span>
+                        <span class="size">Single</span>
+                    </div>
+                    <button class="btn btn-add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=400&fit=crop" alt="Rose Gold Body Oil">
+                    <button class="btn-wishlist">♡</button>
+                </div>
+                <div class="product-info">
+                    <h3>Rose Gold Body Oil</h3>
+                    <p class="product-category">Body Care</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(312)</span>
+                    </div>
+                    <p class="product-description">Silky, nourishing body oil with shimmering mica for a luminous glow and delicate fragrance.</p>
+                    <div class="product-price">
+                        <span class="price">$62</span>
+                        <span class="size">200ml</span>
+                    </div>
+                    <button class="btn btn-add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=400&fit=crop" alt="Velvet Hand Cream">
+                    <button class="btn-wishlist">♡</button>
+                </div>
+                <div class="product-info">
+                    <h3>Velvet Hand Cream</h3>
+                    <p class="product-category">Hand & Body</p>
+                    <div class="rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="review-count">(156)</span>
+                    </div>
+                    <p class="product-description">Luxurious hand cream with argan oil and lavender essence. Non-greasy, long-lasting softness.</p>
+                    <div class="product-price">
+                        <span class="price">$38</span>
+                        <span class="size">75ml</span>
+                    </div>
+                    <button class="btn btn-add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="view-all">
+            <button class="btn btn-secondary">View All Products</button>
+        </div>
+    </section>
+
+    <!-- Product Benefits Section -->
+    <section class="benefits">
+        <div class="benefits-container">
+            <h2 class="section-title">Why Choose KYRO?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M13 17L15.5 19.5L22 12.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Clinically Tested</h3>
+                    <p>All formulations tested for efficacy and safety on real skin</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 2C8.27 2 2 8.27 2 16C2 23.73 8.27 30 16 30C23.73 30 30 23.73 30 16C30 8.27 23.73 2 16 2ZM14 22L8 16L10.41 13.59L14 17.17L21.59 9.58L24 12L14 22Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Natural Ingredients</h3>
+                    <p>Sustainably sourced botanical extracts and premium actives</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 2C8.27 2 2 8.27 2 16C2 23.73 8.27 30 16 30C23.73 30 30 23.73 30 16C30 8.27 23.73 2 16 2ZM14 22L8 16L10.41 13.59L14 17.17L21.59 9.58L24 12L14 22Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>No Compromise</h3>
+                    <p>Free from parabens, sulfates, silicones & harmful chemicals</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 2C8.27 2 2 8.27 2 16C2 23.73 8.27 30 16 30C23.73 30 30 23.73 30 16C30 8.27 23.73 2 16 2ZM14 22L8 16L10.41 13.59L14 17.17L21.59 9.58L24 12L14 22Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Sustainable Packaging</h3>
+                    <p>Recyclable, refillable containers made from eco-conscious materials</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lifestyle Section -->
+    <section class="lifestyle">
+        <h2 class="section-title">The KYRO Lifestyle</h2>
+        <div class="lifestyle-grid">
+            <div class="lifestyle-card">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=300&fit=crop" alt="Skincare routine">
+                <div class="lifestyle-overlay">
+                    <h3>Morning Ritual</h3>
+                    <p>Start your day glowing</p>
+                </div>
+            </div>
+            <div class="lifestyle-card">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=300&fit=crop" alt="Self care">
+                <div class="lifestyle-overlay">
+                    <h3>Self Care Moments</h3>
+                    <p>Nourish your skin</p>
+                </div>
+            </div>
+            <div class="lifestyle-card">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=300&fit=crop" alt="Evening routine">
+                <div class="lifestyle-overlay">
+                    <h3>Evening Glow</h3>
+                    <p>Rest and rejuvenate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="reviews">
+        <h2 class="section-title">Loved by Our Community</h2>
+        <div class="reviews-container">
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">A</div>
+                        <div>
+                            <p class="reviewer-name">Alicia M.</p>
+                            <p class="reviewer-location">Verified Buyer</p>
+                        </div>
+                    </div>
+                    <span class="review-rating">★★★★★</span>
+                </div>
+                <h3 class="review-title">This serum is a game-changer!</h3>
+                <p class="review-text">"I've tried countless serums, but KYRO's Luminous Glow Serum is truly exceptional. My skin feels hydrated, looks radiant, and the scent is divine. Worth every penny!"</p>
+                <div class="review-meta">
+                    <span class="helpful-count">👍 142 found this helpful</span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">S</div>
+                        <div>
+                            <p class="reviewer-name">Sophie L.</p>
+                            <p class="reviewer-location">Verified Buyer</p>
+                        </div>
+                    </div>
+                    <span class="review-rating">★★★★★</span>
+                </div>
+                <h3 class="review-title">Finally a brand I can trust</h3>
+                <p class="review-text">"The transparency KYRO offers about ingredients and sourcing is refreshing. My sensitive skin responded beautifully to the collection. The packaging is gorgeous too!"</p>
+                <div class="review-meta">
+                    <span class="helpful-count">👍 98 found this helpful</span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">J</div>
+                        <div>
+                            <p class="reviewer-name">Jessica R.</p>
+                            <p class="reviewer-location">Verified Buyer</p>
+                        </div>
+                    </div>
+                    <span class="review-rating">★★★★★</span>
+                </div>
+                <h3 class="review-title">Premium quality at fair prices</h3>
+                <p class="review-text">"I expected luxury pricing, but KYRO offers exceptional quality at reasonable rates. The Rose Gold Body Oil is now my go-to for special occasions. Highly recommend!"</p>
+                <div class="review-meta">
+                    <span class="helpful-count">👍 176 found this helpful</span>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-footer">
+            <p class="reviews-rating">⭐ 4.9 out of 5 stars from 2,400+ reviews</p>
+            <button class="btn btn-secondary">Read All Reviews</button>
+        </div>
+    </section>
+
+    <!-- Instagram Gallery -->
+    <section class="instagram">
+        <h2 class="section-title">Follow @KYRO Beauty</h2>
+        <div class="instagram-grid">
+            <div class="instagram-post">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=300&fit=crop" alt="Instagram post 1">
+                <div class="instagram-overlay">
+                    <div class="instagram-stats">
+                        <p>❤️ 3.2K</p>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-post">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=300&fit=crop" alt="Instagram post 2">
+                <div class="instagram-overlay">
+                    <div class="instagram-stats">
+                        <p>❤️ 2.8K</p>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-post">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=300&fit=crop" alt="Instagram post 3">
+                <div class="instagram-overlay">
+                    <div class="instagram-stats">
+                        <p>❤️ 4.1K</p>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-post">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=300&fit=crop" alt="Instagram post 4">
+                <div class="instagram-overlay">
+                    <div class="instagram-stats">
+                        <p>❤️ 3.5K</p>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-post">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=300&fit=crop" alt="Instagram post 5">
+                <div class="instagram-overlay">
+                    <div class="instagram-stats">
+                        <p>❤️ 2.9K</p>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-post">
+                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=300&fit=crop" alt="Instagram post 6">
+                <div class="instagram-overlay">
+                    <div class="instagram-stats">
+                        <p>❤️ 3.7K</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="instagram-cta">
+            <p>Join our community and share your #KYROBeauty moments</p>
+            <a href="https://instagram.com/kyrobeauty" target="_blank" class="btn btn-primary">Follow on Instagram</a>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Join The KYRO Circle</h2>
+            <p>Receive exclusive offers, beauty tips, and early access to new launches</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+            <p class="newsletter-disclaimer">We respect your privacy. Unsubscribe at any time.</p>
+        </div>
+        <div class="newsletter-benefits">
+            <p>✨ 15% off your first order</p>
+            <p>🎁 Exclusive member access</p>
+            <p>💌 Beauty tips & trends</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#skincare">Skincare</a></li>
+                    <li><a href="#body">Body Care</a></li>
+                    <li><a href="#beauty">Beauty</a></li>
+                    <li><a href="#sets">Sets & Bundles</a></li>
+                    <li><a href="#sale">Sale</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#about">About KYRO</a></li>
+                    <li><a href="#sustainability">Sustainability</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#press">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#shipping">Shipping Info</a></li>
+                    <li><a href="#returns">Returns & Exchanges</a></li>
+                    <li><a href="#warranty">Product Warranty</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms & Conditions</a></li>
+                    <li><a href="#contact-support">Contact Support</a></li>
+                    <li><a href="#accessibility">Accessibility</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-links">
+                <a href="https://instagram.com/kyrobeauty" target="_blank" aria-label="Instagram">📷</a>
+                <a href="https://facebook.com/kyrobeauty" target="_blank" aria-label="Facebook">f</a>
+                <a href="https://pinterest.com/kyrobeauty" target="_blank" aria-label="Pinterest">📌</a>
+                <a href="https://tiktok.com/@kyrobeauty" target="_blank" aria-label="TikTok">🎵</a>
+            </div>
+            <p>&copy; 2024 KYRO Beauty. All rights reserved. | Crafted with ✨ for the modern woman</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
